@@ -5,7 +5,7 @@ const API_KEY = "YOUR_KEY_HERE";
 
 const SCORE_COLORS = {
   hot: { bg: "#FF4500", text: "#fff", label: "🔥 HOT" },
-  warm: { bg: "#FF8C00", text: "#fff", label: "⚡ WARM" },
+  warm: { bg: "#FF8C00", t ext: "#fff", label: "⚡ WARM" },
   cold: { bg: "#1a3a5c", text: "#7ab3d4", label: "❄️ COLD" },
 };
 
