@@ -1,11 +1,10 @@
 import { useState } from "react";
 
 const ANTHROPIC_API = "https://api.anthropic.com/v1/messages";
-const API_KEY = "YOUR_KEY_HERE";
-
+const API_KEY = process.env.REACT_APP_API_KEY;
 const SCORE_COLORS = {
   hot: { bg: "#FF4500", text: "#fff", label: "🔥 HOT" },
-  warm: { bg: "#FF8C00", t ext: "#fff", label: "⚡ WARM" },
+  warm: { bg: "#FF8C00", text: "#fff", label: "⚡ WARM" },
   cold: { bg: "#1a3a5c", text: "#7ab3d4", label: "❄️ COLD" },
 };
 
