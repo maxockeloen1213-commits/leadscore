@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const ANTHROPIC_API = "https://api.anthropic.com/v1/messages";
-const API_KEY = "YOUR_KEY_HERE";paste your new key here
+const API_KEY = "YOUR_KEY_HERE";
 
 const SCORE_COLORS = {
   hot: { bg: "#FF4500", text: "#fff", label: "🔥 HOT" },
